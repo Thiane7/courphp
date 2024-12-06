@@ -223,13 +223,9 @@ function insertDettes(array &$tabClients,array $tabDette,$index ):void{
     montantverse($paiement);
  }
 
-
-
-
 function principal(){
    $clients= selectClients();
    do {
-
       $choix= menu();
       switch ($choix) {
        case 1:
